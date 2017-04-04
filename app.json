@@ -1,0 +1,12 @@
+{
+  "name": "auth0 testing",
+  "description": "Testing auth0 on heroku",
+  "keywords": [
+    "flask",
+    "python",
+  ],
+  "repository": "https://github.com/srfraser/auth0-dev",
+  "addons": [
+    
+  ]
+}
