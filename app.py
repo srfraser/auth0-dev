@@ -22,7 +22,7 @@ def index():
 
     data += "oidc_id_token: {}\n<br />".format(g.oidc_id_token)
 
-    data += "user_getinfo: {}\n<br />".format(oidc.user_getinfo(fields))
+    data += "user_getinfo: {}\n<br />".format(oidc.user_getinfo(USER_FIELDS))
     data += "g._oidc_userinfo: {}\n<br />".format(g._oidc_userinfo)
     return data
     
